@@ -7,7 +7,7 @@ function Second() {
     <div style={{ textAlign: 'center', marginTop: '100px', fontFamily: 'sans-serif' }}>
       <h1>Second Page</h1>
       <p>You navigated to the second page.</p>
-      <button onClick={() => navigate('/')}>Back</button>
+      <button onClick={() => navigate('/')}>Previous</button>
     </div>
   )
 }
