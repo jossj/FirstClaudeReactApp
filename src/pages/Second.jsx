@@ -8,6 +8,7 @@ function Second() {
       <h1>Second Page</h1>
       <p>You navigated to the second page.</p>
       <button onClick={() => navigate('/')}>Previous</button>
+      <button onClick={() => navigate('/third')}>Next</button>
     </div>
   )
 }
