@@ -1,9 +1,15 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Second from './pages/Second'
+
 function App() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '100px', fontFamily: 'sans-serif' }}>
-      <h1>Hello, World!</h1>
-      <p>Welcome to my first React app.</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/second" element={<Second />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
